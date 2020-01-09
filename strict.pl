@@ -11,4 +11,16 @@ get '/' => sub {
     return;
 };
 
+get 'service' => sub {
+    my $self = shift;
+    $self->render('service');
+    return;
+};
+
+get 'case' => sub {
+    my $self = shift;
+    $self->render('case');
+    return;
+};
+
 app->start;
