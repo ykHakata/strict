@@ -1,0 +1,15 @@
+% layout 'default';
+% title 'strict(WEBサイト制作)';
+
+<div id="wrapper">
+<%= include './header' %>
+
+
+
+そうしんしました。
+
+<%= include './footer' %>
+    
+    
+    
+</div>

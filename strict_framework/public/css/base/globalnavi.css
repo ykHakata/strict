@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* =======================================
+
+	Globalnavi CSS
+
+========================================== */
+
+ul#globalnavi {
+}
+
+ul#globalnavi li {
+	float: left;
+	width: px;
+}
+
+ul#globalnavi li a {
+	display: block;
+	height: px;
+	background: url() no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+/* Default */
+ul#globalnavi li#gnavi01 a {background-position:  0  0;}
+ul#globalnavi li#gnavi02 a {background-position: -px 0;}
+ul#globalnavi li#gnavi03 a {background-position: -px 0;}
+ul#globalnavi li#gnavi04 a {background-position: -px 0;}
+ul#globalnavi li#gnavi05 a {background-position: -px 0;}
+
+/* When Mouse Over */
+ul#globalnavi li#gnavi01 a:hover {background-position:  px -px;}
+ul#globalnavi li#gnavi02 a:hover {background-position: -px -px;}
+ul#globalnavi li#gnavi03 a:hover {background-position: -px -px;}
+ul#globalnavi li#gnavi04 a:hover {background-position: -px -px;}
+ul#globalnavi li#gnavi05 a:hover {background-position: -px -px;}
+
+/* When Active Page */
+body.xxx ul#globalnavi li#gnavi01 a {background-position:  px -px;}
+body.xxx ul#globalnavi li#gnavi02 a {background-position: -px -px;}
+body.xxx ul#globalnavi li#gnavi03 a {background-position: -px -px;}
+body.xxx ul#globalnavi li#gnavi04 a {background-position: -px -px;}
+body.xxx ul#globalnavi li#gnavi05 a {background-position: -px -px;}
+
+
+
+ul#globalnavi {
+}
+
+ul#globalnavi li {
+	float: left;
+	width: px;
+}
+
+ul#globalnavi li a {
+	display: block;
+	background: url() no-repeat;
+}
+ul#globalnavi li#gnavi01 a {background-position:  0  0;}
+ul#globalnavi li#gnavi02 a {background-position: -px 0;}
+ul#globalnavi li#gnavi03 a {background-position: -px 0;}
+ul#globalnavi li#gnavi04 a {background-position: -px 0;}
+ul#globalnavi li#gnavi05 a {background-position: -px 0;}
+
+ul#globalnavi li a:hover {
+	background-color: #FFF;
+}
+
+ul#globalnavi li a:hover img {
+	visibility: hidden;
+}
+
+/* When Active Page */
+body.xxx ul#globalnavi li#gnavi01 a {background-position:  px -px !important;}
+body.xxx ul#globalnavi li#gnavi02 a {background-position: -px -px !important;}
+body.xxx ul#globalnavi li#gnavi03 a {background-position: -px -px !important;}
+body.xxx ul#globalnavi li#gnavi04 a {background-position: -px -px !important;}
+body.xxx ul#globalnavi li#gnavi05 a {background-position: -px -px !important;}
+
+/* When Active Page */
+body.xxx ul#globalnavi li#gnavi01 a img,
+body.xxx ul#globalnavi li#gnavi02 a img,
+body.xxx ul#globalnavi li#gnavi03 a img,
+body.xxx ul#globalnavi li#gnavi04 a img,
+body.xxx ul#globalnavi li#gnavi05 a img { visibility: hidden;}

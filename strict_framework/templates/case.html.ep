@@ -1,0 +1,105 @@
+% layout 'default';
+% title 'strict(事例紹介)';
+
+<div id="wrapper">
+<%= include './header' %>
+
+
+<div id="case_head">
+<h1>事例紹介</h1>
+
+<!--
+<div id="case_head_navi">
+<ul>
+<li>ホーム</li>
+<li>サービス紹介</li>
+<li>事例紹介</li>
+<li>お問い合わせ</li>
+</ul>
+</div>
+-->
+
+<div id="case_head_clear_fix"></div>
+</div>
+
+<div id="case_content">
+    <div id="case_content_head">
+    <h2>実績一覧</h2>
+    <p>
+    strictでの開発実績、および開発中の案件
+    </p>
+    </div>
+        <div id="case_content_bundle">
+        
+            <div id="case_content_service">
+            
+                <h3>WEBサービス開発</h3>
+            
+                <div class="case_content_service_title">
+                    <h4><a href="http://www.yoyakku.com" target="_blank">yoyakku(ヨヤック)ベーター版</a></h4>
+                    <h5>世の中の予約システムを一元化する</h5>
+                </div>
+                
+                <div class="case_content_service_logo">
+                    <p><a href="http://www.yoyakku.com" target="_blank"><img src="./images/yoyakku.png" alt="yoyakku画像" width="180" height="120"></a></p>
+                </div>
+                
+                <div class="case_clear_fix"></div>
+                
+                <div class="case_content_service_comment">
+                <p>
+                クライアント　yoyakku様<br />
+                URL　　　　　<a href="http://www.yoyakku.com" target="_blank">http://www.yoyakku.com</a><br /><br />
+                
+                yoyakku様からのご依頼につきの共同開発案件、
+                web上での予約システムポータルサイトの構築をしました。
+                yoyakkuシステムについては現在ベーター版にて
+                音楽リハーサルスタジオのみの対応となっております。
+                システム面では予約機能、メール配信機能、
+                会員情報の管理、簡易的な広告機能などの実装。
+                </p>
+                </div>
+            </div>        
+        
+            <div id="case_content_site">
+            
+                <h3>ホームページ制作</h3>
+            
+                <div class="case_content_site_title">
+                    <h4>>kingfish(開発中)</h4>
+                    <h5>福岡、春吉にオープン予定jazzライブスポット</h5>
+                </div>
+                
+                <div class="case_content_site_logo">
+                    <p><img src="./images/kingfish.png" alt="kingfish画像" width="180" height="120"></p>
+                </div>
+                
+                <div class="case_clear_fix"></div>
+                
+                <div class="case_content_site_comment">
+                <p>
+                クライアント　MRT様<br />
+                URL　　　　　開発中<br /><br />
+                
+                機能面においては標準機能である、
+                ログイン機能、簡易ホームページ更新機能、
+                追加にてスケジュール管理機能、
+                会員情報の管理を追加予定、
+                デザイン面ではシックで大人の
+                雰囲気を意識した内容になる予定です。
+                </p>
+                </div>
+            </div>        
+
+
+        </div>
+
+
+</div>
+
+
+<%= include './footer' %>
+    
+    
+    
+</div>

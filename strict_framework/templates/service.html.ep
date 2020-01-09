@@ -1,0 +1,229 @@
+% layout 'default';
+% title 'strict(サービス紹介)';
+
+<div id="wrapper">
+
+
+<%= include './header' %>
+
+
+<div id="service_head">
+<h1>サービス紹介</h1>
+
+<!--
+<div id="service_head_navi">
+<ul>
+<li>ホーム</li>
+<li>サービス紹介</li>
+<li>事例紹介</li>
+<li>お問い合わせ</li>
+</ul>
+</div>
+-->
+
+<div id="service_head_clear_fix"></div>
+</div>
+
+<div id="service_content">
+
+    <div id="service_content_head">
+    <h2>WEBサイト制作、WEBシステム開発</h2>
+    <p>
+    strictでは、お客様の要望に合わせ、
+    一般的なホームページ作成から、
+    WEBサイト上でのシステム開発まで柔軟に対応しております。
+    </p>
+    </div>
+
+<div id="service_content_bundle">
+
+
+<div id="service_content_feature">
+
+    <h3>strictでのサイト制作、システム開発の特色</h3>
+
+    <div class="service_content_feature_title">
+        <h4>１、長く使えて、コストパフォーマンスの高い設計</h4>
+        <h5>ホームページ更新機能、ログイン機能は標準装備</h5>
+    </div>
+    
+    <div class="service_content_feature_logo">
+        <p><img src="./images/free_rogo.png" alt="ログイン、更新機能無料" width="180" height="100"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_feature_comment">
+    <p>
+    単純なホームページ作成であっても、
+    ログイン機能、簡易的なホームページ更新機能は標準装備、
+    ホームページはある程度の更新、
+    維持しなければ効果がなかなか得られません、
+    ご自身でホームページの内容を更新をする事が必須です。
+    更新のたびにhtmlのタグを書き換えていたのであれば、
+    面倒になり更新がされなくなってしまいます。
+    </p>
+    </div>
+
+    <div class="service_content_feature_title">
+    <h4>２、どんな技術かでなくどんなものを作りたいのか</h4>
+    <h5>strictではヒアリングに最も重点をおきます</h5>
+    </div>
+    
+    <div class="service_content_feature_logo">
+    <p><img src="./images/proposal.png" alt="作りたいものを提案" width="180" height="100"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+
+    <div class="service_content_feature_comment">
+    <p>
+    経験がありませんか、
+    業者に業務を効率化する為にシステムを依頼したが使い勝手がわるく、
+    操作の手間を考えると本当に業務が効率化したのか微妙であったなど、
+    今の実務に対してどのようなシステムが最適なのかは依頼者も本当はわからなかったりします。
+    strictでは営業マンがヒアリングするのでなく、
+    実際にシステムを構築する技術者がヒアリングにあたります、
+    そうする事により可能な限りお客様の理想に近いシステム構築を実現します。
+    </p>
+    </div>
+    <div class="service_content_feature_title">
+        <h4>３、機能拡張、変更にも柔軟に追従</h4>
+        <h5>新しく機能を追加したいときにも素早く対応。</h5>
+    </div>
+    
+    <div class="service_content_feature_logo">
+        <p><img src="./images/support.png" alt="業務の変化に対応" width="180" height="100"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    <div class="service_content_feature_comment">
+    <p>
+    最初は単純なお店の紹介のためのホームページだったとします。
+    途中から、独自のネットショップや予約機能を追加したくなったとき、
+    また新しく１から設計するのはとても手間がかかります。
+    機能の追加、変更に大しても可能かぎり低コストで対応できるよう設計いたします。
+    </p>
+    </div>
+</div>
+
+<div id="service_content_flow">
+    
+    <h3>ホームページ制作、WEBシステム開発のながれ</h3>
+
+    <div class="service_content_flow_title">
+        <h4>１、ヒアリング</h4>
+        <p>
+        お客様のご要望をヒアリングします、
+        効率良く進められるように可能な限りメール等で情報を整理し、
+        内容によっては現場訪問し最適なシステムをご提案します。
+        </p>
+    </div>
+<!--
+    
+    
+    
+-->
+    
+    
+    
+    
+        <div class="service_content_flow_logo">
+        <p><img src="./images/survey.png" alt="調査" width="180" height="70"><br />
+        <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_flow_title">
+        <h4>２、提案書、見積書の提出</h4>
+        <p>
+        市場調査や弊社の経験を元に、
+        お客様に最適なご提案とお見積もりを
+        ご提出させていただきます。
+        </p>
+    </div>
+    
+    <div class="service_content_flow_logo">
+        <p><img src="./images/submission.png" alt="提出" width="180" height="70"><br />
+        <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_flow_title">
+        <h4>３、仕様書の作成</h4>
+        <p>
+        実装作業に入る前に、
+        画面のデザインや実装機能などをまとめた
+        仕様書の作成をいたします。
+        お客様にて仕様書を提出し、
+        確認後、実装作業に入ります。
+        </p>
+    </div>
+    
+    <div class="service_content_flow_logo">
+        <p><img src="./images/conf.png" alt="確認" width="180" height="70"><br />
+        <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_flow_title">
+        <h4>４、実装作業</h4>
+        <p>
+        実際の現場ではデザインや機能の仕様書を元にhtmlの
+        マークアップや必要な機能を最適な
+        プログラミング言語にて実装してゆきます。
+        </p>
+    </div>
+    
+    <div class="service_content_flow_logo">
+        <p><img src="./images/imple.png" alt="実装" width="180" height="70"><br />
+        <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p>
+    </div>
+
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_flow_title">
+        <h4>５、プロトタイプの完成</h4>
+        <p>
+        実際にお客様に使用していただき、
+        最終的な仕様の確認や、不具合などの調整を行います。
+        </p>
+    </div>
+    
+    <div class="service_content_flow_logo">
+        <p><img src="./images/trial.png" alt="試作" width="180" height="70"><br />
+        <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p>
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+    <div class="service_content_flow_title">
+        <h4>６、リリース（納品）</h4>
+        <p>
+        プロトタイプでの最終確認ののち、作業の完了となります。
+        </p>
+    </div>
+    
+    <div class="service_content_flow_logo">
+        <p><img src="./images/comp.png" alt="完了" width="180" height="70"><br />
+<!--         <img src="./images/arrow.png" alt="矢印" width="180" height="70"></p> -->
+    </div>
+    
+    <div class="service_clear_fix"></div>
+    
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<%= include './footer' %>
+
+
+</div>

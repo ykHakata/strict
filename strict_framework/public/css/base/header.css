@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/* =======================================
+
+	Header CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	
+
+========================================== */
+
+#header {
+/*     width: 738px; */
+    border-top: 5px red solid;
+    border-bottom: 10px red solid;
+    background-color: white;
+    padding: 0 30px 0 30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 30px;
+}
+
+#header_title {
+/*     width: 300px; */
+/*     margin-left: px; */
+    float: left;
+}
+
+
+#header_comment {
+/* width: 460px; */
+/*     background-color: gray; */
+    float: right;
+}
+
+#header_clear_fix {
+    clear: both;
+}
+/* Site Title
+========================================== */
+#header h1#site-title {
+}
+
+#header h1#site-title a {
+}
+
+#header_title {
+/*     background-color: aqua; */
+    font-size: xx-large;
+    color: red;
+}
+/* Description
+========================================== */
+#header p#description {
+}
+
+#header_description {
+/*     background-color: blue; */
+    font-size: small;
+    background: ;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: -30px;
+}
+/* Header Navi
+========================================== */
+#navsite {
+}
+#navsite ul {
+    border-right: 1px dotted black;
+    margin-right: px;
+    width: px;
+    margin-top: 14px;
+    margin-bottom: 2px;
+}
+#navsite li {
+    display: inline;
+    border-left: 1px dotted black;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: small;
+    
+}
+
+
+#header ul#header-navi {
+}
+
+#header ul#header-navi li {
+	float: left;
+	width: px;
+}
+
+#header ul#header-navi li a {
+	display: block;
+	height: px;
+	background: url() no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+/* Default */
+#header ul#header-navi li#hnavi01 a {background-position:  0  0;}
+#header ul#header-navi li#hnavi02 a {background-position: -px 0;}
+#header ul#header-navi li#hnavi03 a {background-position: -px 0;}
+#header ul#header-navi li#hnavi04 a {background-position: -px 0;}
+#header ul#header-navi li#hnavi05 a {background-position: -px 0;}
+
+/* When Mouse Over */
+#header ul#header-navi li#hnavi01 a:hover {background-position:  px -px;}
+#header ul#header-navi li#hnavi02 a:hover {background-position: -px -px;}
+#header ul#header-navi li#hnavi03 a:hover {background-position: -px -px;}
+#header ul#header-navi li#hnavi04 a:hover {background-position: -px -px;}
+#header ul#header-navi li#hnavi05 a:hover {background-position: -px -px;}
+
+/* When Active Page */
+body.xxx #header ul#header-navi li#hnavi01 a {background-position:  px -px;}
+body.xxx #header ul#header-navi li#hnavi02 a {background-position: -px -px;}
+body.xxx #header ul#header-navi li#hnavi03 a {background-position: -px -px;}
+body.xxx #header ul#header-navi li#hnavi04 a {background-position: -px -px;}
+body.xxx #header ul#header-navi li#hnavi05 a {background-position: -px -px;}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* =======================================
+
+	Text Decorations CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.Titles
+
+========================================== */
+
+/* 1.Titles
+========================================== */
+#contents h2 {
+}
+
+#contents h3 {
+}
+
+#contents h4 {
+}
+
+#contents h5 {
+}
+
+#contents h6 {
+}
+
+
+/* 
+========================================== */
+#contents p, #contents address, #contents th, #contents td {
+	font-size: 92.4%;
+	line-height: 1.5;
+}
+
+#contents li, #contents dt, #contents dd {
+	font-size: 92.4%;
+	line-height: 1.335;
+}
+
+/* Inner Reset  */
+#contents th p, #contents th li, #contents th dt, #contents th dd,
+#contents td p, #contents td li, #contents td dt, #contents td dd,
+#contents li p, #contents li li, #contents li dt, #contents li dd,
+#contents dt p, #contents dt li, #contents dt dt, #contents dt dd,
+#contents dd p, #contents dd li, #contents dd dt, #contents dd dd {
+	font-size: 100%;
+}
+
+#contents strong {
+	font-weight: bold;
+}
+
+#contents em {
+	font-style: italic;
+}
+
+#contents a {
+	text-decoration:;
+}
+
+#contents a:hover {
+	text-decoration:;
+}

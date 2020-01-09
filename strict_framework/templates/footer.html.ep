@@ -1,0 +1,18 @@
+<div id="footer">
+    <div id="footer_copyright">
+    <p>Copyright &copy; strict inc. All Rights Reserved.</p>
+    </div>
+    <div id="footer_comment">
+        <div id="">
+            <ul>
+            <li><a href="/">ホーム</a></li>
+            <li><a href="service">サービス紹介</a></li>
+            <li><a href="case">事例紹介</a></li>
+            <li><a href="contact">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer_clear_fix"></div>
+</div>
+
+

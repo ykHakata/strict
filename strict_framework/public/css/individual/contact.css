@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+/* =======================================
+
+	contact CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.
+
+========================================== */
+
+/* 1.
+========================================== */
+#contact_head {
+/*     text-shadow: 1px 1px grey; */
+    font-size: x-large;
+    border-bottom: 6px double gray;
+/*     margin: 40px 0px 0px 0px; */
+/*     padding-bottom: 5px; */
+}
+#contact_head h1 {
+/*     background-color: blue; */
+    float: left;
+}
+
+#contact_head_navi {
+    float: right;
+}
+
+#contact_head_navi ul {
+    border-right: 1px dotted black;
+/*     margin-right: px; */
+/*     width: px; */
+/*     margin-top: 14px; */
+    margin-bottom: 5px;
+}
+#contact_head_navi li {
+    display: inline;
+    border-left: 1px dotted black;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: small;
+}
+
+#contact_head_clear_fix {
+    clear: both;
+}
+/* step
+========================================== */
+#step_list {
+    padding: 40px 0 40px 0;
+}
+
+#step_list table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-right: 1px dotted gray;
+    line-height: 1.5em;
+}
+
+#step_list th {
+/*     background-color: whitesmoke; */
+    width: 242px;
+    border-left: 1px dotted gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* form
+========================================== */
+#text_input_box {
+    float: left;
+/*      background-color: green;  */
+    width: 370px;
+}
+
+.title_input {
+    font-size: large;
+    padding-top: 15px;
+    display: block;
+/*     width: 200px; */
+/*     background-color: red;   */
+    float: left;
+}
+
+.title_input:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
+
+
+
+
+.validated {
+    color: red;
+    font-size: xx-small;
+}
+
+.form_input {
+    font-size: xx-small;
+    text-align: left;
+/*      background-color: blue; */
+     float: right;
+     margin-bottom: 10px;
+}
+
+.form_input input {
+    font-size: medium;
+}
+
+.text_input {
+    width: 230px;
+    height: 30px;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: solid gray;
+    border-width: 1px 2px 2px 1px ;
+}
+
+.text_input:focus {
+    background-color: cornsilk;
+}
+
+#textarea_input_box {
+    float: right;
+/*      background-color: aqua;  */
+}
+
+
+
+.title_textarea_input {
+    font-size: large;
+}
+
+.title_textarea_input:hover {
+    cursor: pointer;
+    color: palevioletred;
+}
+
+#inquiry_input {
+    width: 300px;
+    height: 185px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: small;
+    font-weight: bold;
+    border: solid gray;
+    border-width: 1px 2px 2px 1px ;
+}
+
+#inquiry_input:focus {
+    background-color: cornsilk;
+}
+
+#contact_input_box_clear_fix {
+    clear: both;
+}
+
+#form_button {
+    text-align: right;
+    margin: 10px 0 10px 0;
+}
+
+#form_button p {
+    font-size: xx-small;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+#form_button span {
+    font-size: large;
+    color: red;
+    margin-right: 10px;
+
+}
+
+
+
+
+#trans_button {
+    background-color: whitesmoke;
+    font-size: large;
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    border: solid gray;
+    border-width: 1px 2px 2px 1px ;
+}
+
+#trans_button:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+/* company_guide
+========================================== */
+
+#company_guide {
+}
+
+#company_guide table {
+    margin: 0 auto;
+    line-height: 1.5em;
+    border-collapse: collapse;
+    border-bottom: 1px solid gray;
+}
+
+#company_guide th {
+    width: 100px;
+    font-size: small;
+    border-top: 1px solid gray;
+    padding: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+#company_guide td {
+    font-size: small;
+    width: 640px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+

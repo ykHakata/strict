@@ -1,0 +1,522 @@
+# 仕事をとるための足がかりとなる紹介用のサイトの内容
+
+・団体名
+・活動実績
+・活動目的
+・活動内容
+# ---------
+・ヘッダー
+    サイト紹介コメント
+    問合せフォームリンク
+
+    会社名
+    グローバルナビゲーション
+        ホーム、サービス紹介、事例紹介、会社案内
+
+・ホーム
+    会社名
+    会社のモットー的なコメント
+    
+    欲しかったものをWEBの力で実現します
+    
+    一般的なホームページからWEBシステム開発、運用まで
+    最適なコストパフォーマンスで実現します。
+    
+    
+    会社のイメージを表すイラスト
+        
+    ・お知らせ(最新情報、更新情報など)
+    2013-06-07　strictサイト公開
+    2013-06-08　初期投資０円キャンペーン開始
+    2013-06-09　開発事例を更新
+    
+    
+    
+・サービス紹介
+
+    サービス紹介の詳細
+        ・サイト制作、システム開発
+            strictでは、お客様の要望に合わせ、一般的なホームページ作成から、WEBサイト上でのシステム開発を行っております。
+            
+            
+        ・strictでのサイト制作、システム開発の特色
+        
+            ・長く使えて、コストパフォーマンスの高い設計
+            
+                ・ホームページ更新機能、ログイン機能は標準装備
+                
+                strictでは単純なホームページ作成であっても、標準機能としてログイン機能、
+                簡易的なホームページ更新機能を備えております。
+                ホームページはある程度の期間公開、維持しなければ効果がなかなか得られません。
+                維持費を安く押さえたい場合、ご自身でホームページの内容を更新をする事が必要になります。
+                更新のたびにhtmlのタグを書き換えていたのであれば、面倒になり更新がされなくなってしまいます。
+            
+            ・どんな技術を使うのかでなく、どんなものを作りたいのかに重点をおきます。
+            
+                ・strictではヒアリングに最も重点をおきます。
+                
+                経験がありませんか、業者に業務を効率化する為にシステムを依頼したが
+                使い勝手がわるく、操作の手間を考えると本当に業務が効率化したのか微妙であったなど、
+                
+                今の実務に対してどのようなシステムが最適なのかは依頼者も本当はわからなかったりします。
+                
+                strictでは営業マンがヒアリングするのでなく、実際にシステムを構築する技術者が
+                ヒアリングにあたります、そうする事により可能な限りお客様の理想に近いシステム構築を実現します。
+                
+            ・機能拡張、変更にも柔軟に追従する設計
+            
+                ・新しく機能を追加したいときにも素早く対応。
+                
+                最初は単純なお店の紹介のためのホームページだったとします。
+                途中から、独自のネットショップや予約機能を追加したくなったとき、
+                また新しく１から設計するのはとても手間がかかります。
+                機能の追加、変更に大しても可能かぎり低コストで対応できるよう設計されています。
+            
+        ・ホームページ制作、WEBシステム開発のながれ
+            ・ヒアリング
+                お客様のご要望をヒアリングします、効率良く進められるように
+                可能な限りメール等で情報を整理し、内容によっては現場訪問し最適なシステムをご提案します。
+            ・提案書、見積書の提出
+                市場調査や弊社の経験を元に、お客様に最適なご提案とお見積もりをご提出させていただきます。
+            ・仕様書の作成
+                実装作業に入る前に、画面のデザインや実装機能などをまとめた仕様書の作成をいたします。
+                お客様にて仕様書を提出し、確認後、実装作業に入ります。
+            ・実装作業
+                実際の現場ではデザインや機能の仕様書を元にhtmlのマークアップや必要な機能を最適なプログラミング言語にて
+                実装してゆきます。
+            ・プロトタイプの完成
+                実際にお客様に使用していただき、最終的な仕様の確認や、不具合などの調整を行います。
+            ・リリース（納品）
+                プロトタイプでの最終確認ののち、作業の完了となります。
+・事例紹介
+    ・strictでの開発事例の紹介
+    
+    ・webサービス開発
+        ・yoyakku(ヨヤック)ベーター版
+        
+            クライアント yoyakku様
+            URL http://www.yoyakku.com
+        
+            ・世の中の予約システムを一元化する
+            
+            yoyakku様からのご依頼につきの共同開発案件、web上での予約システムポータルサイトの構築をしました。
+            yoyakkuシステムについては現在ベーター版にて音楽リハーサルスタジオのみの対応となっております。
+            システム面では予約機能、メール配信機能、会員情報の管理、簡易的な広告機能などの実装。
+            
+            
+    ・ホームページ制作
+        ・kingfish(開発中)
+        
+            クライアント MRT様
+            URL 開発中
+            
+            ・福岡、春吉にオープン予定jazzライブスポット
+            
+            機能面においては標準機能である、ログイン機能、簡易ホームページ更新機能
+            追加にてスケジュール管理機能、会員情報の管理を追加予定
+            デザイン面ではシックで大人の雰囲気を意識した内容になる予定です。
+        
+・案内
+
+    屋号　strict(ストリクト)
+    設立　2013年4月
+    代表者　日下部　幸夫(kusakabe yukio)
+    所在地　〒812-0041　福岡県福岡市博多区吉塚4丁目12-9 ヴィオラ吉塚103
+    事業内容　webサイト、webシステム、開発、企画、運営、導入支援
+    
+・問合せフォーム
+
+    ・お問い合わせフォーム
+    
+    お問い合わせは下記入力フォームからご連絡ください。
+    
+    step1   下記のフォームに必要事項を記入後送信
+    step2   お問い合わせ完了のメールが自動送信
+    step3   担当者よりご連絡
+    
+    お問い合わせ内容
+    
+    お名前
+    
+    ふりがな
+    
+    Eメールアドレス
+    
+    Eメールアドレス(確認)
+
+・フッダー
+    フッダーナビゲーション
+        ホーム、サービス紹介、事例紹介、会社案内
+        コピーライト、、
+
+
+
+
+
+# ---------
+2013/6/5
+    ・自社サイト、プロジェクト管理システムの画面設計
+    ・進捗管理はありもののシステムを活用もよいが今回はあえて設計
+    ・開発案件がきたときの為に自作して独自のノウハウを蓄積しておく
+    ・明日は既存のサイトをみて、業務紹介部分を作成
+        目標は6/13(水)まで
+    ・ざくっと、6/5-6/7基本画面設計、コンテンツの準備
+    ・6/8-6/12、html,css,perl,mojoにてコーディング同時進行で設計してゆく
+    ・6/13見直し、テスト、webサーバー選定
+# ---------
+2013/6/7
+    ・サイトのコンテンツをテキストで書き出してみる(原稿作成)
+    
+# ---------
+2013/6/8
+    ・キーノートでのラフスケッチ終了、実装作業にうつる
+    ・mojoにて実装作業開始
+# ---------
+2013/6/9
+    ・コーディング作業、サービス紹介から、事例紹介まで
+# ---------
+2013/6/10
+    ・コーディングつづき、お問い合わせ以下の部分に着手
+# ---------
+2013/6/11
+    ・コーディング続き、基本的な構成は完了、ロゴ等素材を用意する
+    ・写真、ロゴ、一通り遷移する、一応の完成、次回細かいところを修正、チェックする
+# ---------
+2013/6/12
+    ・問合せフォームが機能するようにDBと連携する、最低限メール配信機能だけつけ
+        必要に応じて拡張してゆく
+    
+# ---------
+2013/6/13
+    ・問合せフォーム完成
+    ・メール配信機能完成
+    ・gmail取得　-> strictQuery googlestrict
+    ・webサーバーの選定=>livedoorクラウド　strictpower.com
+    ・webサーバーの設定完了、:3000から:80に切り替える
+    ・yoyakkuと同じ手順でバックグラウンドで立ち上げる
+    ・iPhoneでみるとレイアウトがくずれる？
+    ・morboで起動する所までできるが、バックグラウンドでできない？
+        etc/initがない？？
+    ・もう少し調べて分からなければまたヘルプで川上氏、最悪sakuraをかりるか、
+USER   excld93
+PASS   Qs6dg2xC
+
+バックグラウンドの為のスクリプト下書き
+mojo用
+----------
+# sudo vi /etc/init.d/strict.conf
+
+description "strict"
+
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+
+script
+    #!/bin/sh
+    PATH=/home/excld93/perl5/perlbrew/perls/perl-5.16.3/bin:$PATH
+    cd /home/excld93/strict_framework
+    hypnotoad --foreground myapp.pl
+end script
+
+
+
+# sudo initctl list|grep strict
+# sudo init.dctl start strict
+# sudo initctl stop strict
+# sudo initctl reload strict
+
+auto_mail用
+----------
+# sudo vi /etc/init/auto_mail.conf
+description "auto_mail"
+
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+
+script
+    #!/bin/sh
+    PATH=/home/yoyakku/perl5/perlbrew/perls/perl-5.16.3/bin:$PATH
+    cd /home/excld93/strict_framework
+    perl auto_mail.pl
+end script
+
+
+
+----------
+# ---------
+2013/6/14
+    ・initについてはcentosのバージョンの違いによる、プロセス起動のうんたらかんたら、
+    ・面倒なんで、さくらのvpsに乗り換え追加契約そうする事にする
+    
+# さくらサーバー構築
+
+  [サーバ基本情報]
+   IPアドレス：133.242.185.203
+
+  [管理用ユーザ]
+   ユーザ名      ：root (※)
+   初期パスワード：pupkuyfwz2
+
+http://akabeko.me/blog/2012/04/revps-01-prepare-ssh-key/
+
+VPSコンパネ　起動
+ssh接続
+yk-no-MacBook-Air:~ yk$ ssh root@133.242.185.203 -p 22
+
+SAKURA Internet [Virtual Private Server SERVICE]
+
+# useradd strict
+# passwd strict
+# strictsakura
+
+ssh strict@133.242.185.203
+strictsakura
+
+$ su
+Password:pupkuyfwz2
+# vi /etc/sysconfig/i18n
+
+LANG="ja_JP.UTF-8"
+SYSFONT="latarcyrheb-sun16"
+
+# yum update
+
+$ yum list installed | grep sudo
+
+$ su
+Password:pupkuyfwz2
+# usermod -G wheel strict
+
+# id strict
+[root@www13429ui strict]# id strict
+uid=500(strict) gid=500(strict) 所属グループ=500(strict),10(wheel)
+
+# visudo
+## Allows people in group wheel to run all commands
+%wheel        ALL=(ALL)       ALL
+
+[strict@www13429ui ~]$ ls -l -a
+合計 24
+drwx------  2 strict strict 4096  6月 14 15:36 2013 .
+drwxr-xr-x. 3 root   root   4096  6月 14 15:27 2013 ..
+-rw-------  1 strict strict   20  6月 14 15:36 2013 .bash_history
+-rw-r--r--  1 strict strict   18  2月 22 06:09 2013 .bash_logout
+-rw-r--r--  1 strict strict  176  2月 22 06:09 2013 .bash_profile
+-rw-r--r--  1 strict strict  124  2月 22 06:09 2013 .bashrc
+
+$ vi .bash_profile
+
+# User specific environment and startup programs
+ 
+PATH=$PATH:$HOME/bin
+PATH=$PATH:/sbin
+PATH=$PATH:/usr/sbin
+PATH=$PATH:/usr/local/sbin
+
+$ source ~/.bash_profile
+
+$ sudo vi /etc/ssh/sshd_config
+13 #Port 22
+14 Port 1000
+
+sudo /etc/rc.d/init.d/sshd restart
+ 
+ssh strict@133.242.185.203 -p 1000
+strictsakura
+
+$ rpm -qa mysql-server
+$ sudo yum install mysql-server
+$ mysql --version
+[strict@www13429ui ~]$ mysql --version
+mysql  Ver 14.14 Distrib 5.1.69, for redhat-linux-gnu (x86_64) using readline 5.1
+
+$ cp /etc/my.cnf $HOME/backup
+$ sudo vi /etc/my.cnf
+-----------------------------
+[mysqld]
+datadir=/var/lib/mysql
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+
+# character-set
+default-character-set=utf8
+skip-character-set-client-handshake
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+[client]
+default-character-set=utf8
+ 
+[mysql]
+default-character-set=utf8
+ 
+[mysqldump]
+default-character-set=utf8
+-----------------------------
+$ chkconfig --list mysqld
+
+$ sudo chkconfig mysqld on
+$ chkconfig --list mysqld
+
+sudo service mysqld start
+
+$ sudo mysqladmin -u root password '0520'
+
+$ mysql -u root -p mysql
+mysql> SELECT user, password, host FROM user;
+
+mysql> DELETE FROM user WHERE user = '' OR ( user = 'root' AND host != 'localhost' );
+
+mysql> SELECT user, password, host FROM user;
+
+mysql> SHOW DATABASES;
+mysql> DROP DATABASE test;
+mysql> SHOW DATABASES;
+
+
+お名前.comで取得
+strict.jpn.com
+
+ssh strict@strict.jpn.com -p 1000
+strictsakura
+
+
+
+curl -kL http://install.perlbrew.pl | bash
+echo " source ~/perl5/perlbrew/etc/bashrc " >> .bashrc
+source ~/perl5/perlbrew/etc/bashrc
+perlbrew available
+perlbrew install perl-5.16.3
+perlbrew switch  perl-5.16.3
+perlbrew install-cpanm
+
+
+sh -c "curl -L cpanmin.us | perl - Mojolicious"
+
+cpanm HTML::FillInForm
+cpanm Readonly::XS
+
+cpanm DBI
+cpanm DBD::mysql
+
+# DBDはいつもテストコケる、、
+mysql -u root -p
+Password:0520
+mysql> grant all privileges on test.* to 'strict'@'localhost' identified by 's3kr1t';
+mysql> exit;
+% cpanm DBD::mysql
+% mysql -u root -p
+Password:
+mysql> REVOKE ALL PRIVILEGES ON test.* FROM 'strict'@'localhost';
+mysql> exit;
+%
+
+上記だけではだめで、
+yum install mysql-devel
+が必要らしい
+
+cpanm Teng
+cpanm FormValidator::Lite
+cpanm Email::MIME
+cpanm Email::Sender::Transport::SMTP::TLS
+
+ HTML::FillInForm;
+# ---------
+2013/6/15
+    ・mojoのバージョンがあがってrender_text()などがつかえず、render(text => '')に変更
+    ・本番でデプロイなんとか完了、パスの記述には気をつける。
+    
+バックグラウンドの為のスクリプト下書き
+mojo用
+----------
+# sudo vi /etc/init/strict.conf
+
+description "strict"
+
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+
+script
+    #!/bin/sh
+    PATH=/home/strict/perl5/perlbrew/perls/perl-5.16.3/bin:$PATH
+    cd /home/strict/strict_framework
+    hypnotoad --foreground myapp.pl
+end script
+
+
+
+# sudo initctl list|grep strict
+# sudo initctl start strict
+# sudo initctl stop strict
+# sudo initctl reload strict
+
+auto_mail用
+----------
+# sudo vi /etc/init/auto_mail.conf
+
+description "auto_mail"
+
+start on runlevel [2345]
+stop on runlevel [016]
+
+respawn
+
+script
+    #!/bin/sh
+    PATH=/home/strict/perl5/perlbrew/perls/perl-5.16.3/bin:$PATH
+    cd /home/strict/strict_framework
+    perl auto_mail.pl
+end script
+
+# sudo initctl list|grep auto_mail
+# sudo initctl start auto_mail
+# sudo initctl stop auto_mail
+# sudo initctl reload auto_mail
+
+
+----------
+sudo initctl list|grep strict 
+ps aux|grep strict
+
+# ---------
+2013/6/17
+    ・名刺を注文する
+        名称	strict(ストリクト)
+        代表者	日下部 幸夫 (kusakabe yukio)
+        所在地	〒812-0041
+        福岡県 福岡市 博多区吉塚4丁目12-9 ヴィオラ吉塚103
+        事業内容	webサイト、webシステム、開発、企画、運営、導入支援
+        メルアド　strictquery@gmail.com
+        
+	ライブドアのサーバーの契約を再確認
+	いまアップロードしているデータを保存できたら、解約の方向へ
+	ドメインがどうなるかも、確認しておく
+# ---------
+2013/6/24
+    ・最初にアップロードしたライブドアサーバーを解約する
+    ・人名検索のデータは抽出、strictの方はそのままほったらかしにする
+    ・startプランの方のトラブルチケットより解約の段取りと合わせ中、
+        連絡まち。
+    ・サクラサーバー、VPS(V3)1G 本登録をクリックした、
+        サーバーはさくらに統一する事にする。
+
+
+
+
+
+
+
+
+
+
+

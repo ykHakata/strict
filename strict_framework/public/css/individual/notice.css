@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* =======================================
+
+	notice CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.
+
+========================================== */
+
+/* 1.
+========================================== */
+
+#notice_head {
+    font-size: x-large;
+    border-bottom: 6px double gray;
+    margin: 10px 0px 10px 0px;
+    padding-bottom: 5px;
+    background-color: ;
+}
+
+
+#notice_description {
+    float: left;
+    width: 370px;
+/*     margin-left: 0px; */
+/*      background-color: gray;  */
+}
+
+#notice_description h2 {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-left: 5px solid black;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#notice_description p {
+    text-indent: 1em;
+    font-size: small;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+#notice_history {
+    width: 368px;
+/*     background-color: aqua; */
+    float: right;
+/*     margin-right: 0px; */
+}
+
+#notice_history h1 {
+}
+
+#notice_history h2 {
+    font-size: large;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#notice_history span {
+    font-size: medium;
+}
+
+#notice_history_update {
+    border-bottom: 6px double gray;
+    border-top: 6px double gray;
+}
+
+#notice_history li {
+    font-size: small;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#notice_clear_fix {
+    clear: both;
+}
+

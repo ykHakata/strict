@@ -1,0 +1,90 @@
+# strictサイトデータベース原案
+
+## ===========================
+機能
+お問い合わせフォーム
+メール配信機能
+ログイン機能
+
+
+構想中===
+ホームページの更新機能
+    更新履歴部分の簡易入力
+プロジェクト管理機能
+=========
+## ===========================
+## DB設計
+2013/6/12
+    ・基本db設計を開始、最低限の機能実装
+    ・ログイン機能
+    ・お問い合わせフォームのデータ保存(メール配信)
+データベース
+strict      データベース名
+
+sql-----
+create database strict; 
+--------
+
+Field　フィールド名
+Type　データ型
+Null　Nullを許可するかどうか
+Key　主キー
+Default　初期値
+Extra　オートインクリメントなど
+
+#---------
+#---------
+管理ユーザー
+
+admin                   テーブル名
+
+カラム名                データ型        null    key    default    extra            項目名
+id                      int             no      pri               auto_increment   管理ユーザーID
+login                   varchar(255)    yes            null                        ログインID名
+password                varchar(255)    yes            null                        ログインパスワード
+status                  int             yes            null                        ステータス
+create_on               datetime        yes            null                        登録日
+modify_on               datetime        yes            null                        修正日
+
+status->0 無効 ->1 有効
+#----sql文
+create table admin(
+    id                  int    auto_increment primary key,
+    login               varchar(255),
+    password            varchar(255),
+    status              int,
+    create_on           datetime,
+    modify_on           datetime 
+);
+#----
+#---------
+お問い合わせ
+
+contact                 テーブル名
+
+カラム名                データ型        null    key    default    extra            項目名
+id                      int             no      pri               auto_increment   お問い合わせID
+name                    text            yes            null                        氏名
+read_name               text            yes            null                        ふりがな
+email                   text            yes            null                        メールアドレス
+inquiry                 text            yes            null                        問合せ内容
+status                  int             yes            null                        ステータス
+create_on               datetime        yes            null                        登録日
+modify_on               datetime        yes            null                        修正日
+
+
+
+status->0 未送信 ->1 送信済
+#----sql文
+create table contact(
+    id                  int    auto_increment primary key,
+    name                text,
+    read_name           text,
+    email               text,
+    inquiry             text,
+    status              int,
+    create_on           datetime,
+    modify_on           datetime
+);
+#----
+

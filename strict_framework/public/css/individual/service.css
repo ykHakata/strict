@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* =======================================
+
+	service CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.
+
+========================================== */
+
+/* 1.
+========================================== */
+#service_head {
+    font-size: x-large;
+    border-bottom: 6px double gray;
+/*     margin: 10px 0px 10px 0px; */
+/*     padding-bottom: 5px; */
+}
+#service_head h1 {
+/*     background-color: blue; */
+    float: left;
+}
+
+#service_head_navi {
+    float: right;
+}
+
+#service_head_navi ul {
+    border-right: 1px dotted black;
+/*     margin-right: px; */
+/*     width: px; */
+/*     margin-top: 14px; */
+    margin-bottom: 5px;
+}
+#service_head_navi li {
+    display: inline;
+    border-left: 1px dotted black;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: small;
+}
+
+#service_head_clear_fix {
+    clear: both;
+}
+/* 1.
+========================================== */
+
+#service_content_head h2 {
+    background-color: salmon;
+    font-size: large;
+    padding: 5px;
+    margin: 20px 0 20px 0px
+}
+
+#service_content_head p {
+    font-size: medium;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    background-color: ;
+}
+    /* 
+    ========================================== */
+    #service_content_bundle {
+        margin-top: 20px;
+        padding-left: 40px;
+        background-color: ;
+    }
+    
+    #service_content_feature h3 {
+        font-size: large;
+        margin: 0px 0 20px 0px;
+        padding: 5px;
+        background-color: darksalmon;
+    }
+    
+    .service_content_feature_title {
+        float: left;
+        background-color: ;
+    }
+    
+    .service_content_feature_title h4 {
+        font-size: medium;
+        margin-bottom: 50px;
+        padding: 5px;
+        background-color: lavenderblush;
+/*         margin-top: 50px; */
+    }
+    
+    .service_content_feature_title h5 {
+        font-size: medium;
+        margin-bottom: 30px;
+        border-left: 5px solid black;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+        padding: 5px;
+    }
+    
+    .service_content_feature_logo {
+        float: right;
+    }
+    
+    .service_clear_fix {
+        clear: both;
+    }
+    
+    .service_content_feature_comment p {
+        font-size: small;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+    
+    
+    /* 
+    ========================================== */
+    #service_content_flow h3 {
+        font-size: large;
+        margin: 0px 0 20px 0px;
+        padding: 5px;
+        background-color: darksalmon;
+    }
+    
+    .service_content_flow_title {
+        float: left;
+        width: 500px;
+        background-color: ;
+    }
+    
+    .service_content_flow_title h4 {
+        font-size: large;
+        margin-bottom: 20px;
+        padding: 5px;
+        background-color: lavenderblush;
+    }
+    
+    .service_content_flow_title p {
+        font-size: small;
+        line-height: 1.5em;
+    }
+    
+    .service_content_flow_logo {
+        float: right;
+    }
+    
+    .service_clear_fix {
+        clear: both;
+    }
+    /* 
+    ========================================== */
+
+
+
+
+

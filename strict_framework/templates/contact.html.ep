@@ -1,0 +1,128 @@
+% layout 'default';
+% title 'strict(WEBサイト制作)';
+
+<div id="wrapper">
+<%= include './header' %>
+
+<div id="contact_head">
+<h1>お問い合わせ</h1>
+
+<div id="contact_head_clear_fix"></div>
+</div>
+
+<div id="step_list">
+<table>
+    <tr>
+        <th>step1<br />フォームに記入後送信</th>
+        <th>step2<br />完了のメールが自動送信</th>
+        <th>step3<br />担当者よりご連絡</th>
+    </tr>
+</table>
+
+</div>
+
+
+<form method="post" action="">
+
+<div id="text_input_box">
+
+% my @title      = qw{ お名前  ふりがな e-mail e-mail(確認) };
+% my @example    = ("雨風　太郎","あまかぜ　たろう","tarou\@gmail.com","tarou\@gmail.com");
+% my @id_name    = qw{ name_input read_name_input mail_input email_conf_input };
+% my @input_name = qw{ name read_name email email_conf };
+% my @error_vali = qw{ name_vali read_name_vali email_vali email_conf_vali };
+
+
+
+% for my $i (0..3) {
+
+% if ($i eq 3) {
+<label for="<%= $id_name[$i] %>" class="title_input"><%= $title[$i] %><br />
+% if ($self->stash->{emails_vali}) {
+% for my $emails_vali ( @{$self->stash->{emails_vali}} ) {
+<span class="validated"><%= $emails_vali %></span>
+% }
+% }
+</label>
+% }
+% else {
+<label for="<%= $id_name[$i] %>" class="title_input"><%= $title[$i] %></label>
+% }
+
+<div class="form_input">
+例)<%= $example[$i] %><span class="validated">【必須】
+% if ($self->stash->{$error_vali[$i]}) {
+% for my $vali ( @{ $self->stash->{ $error_vali[$i] } } ) {
+<%= $vali %>
+% }
+% }
+</span><br />
+<input type="text" name="<%= $input_name[$i] %>" id="<%= $id_name[$i] %>" class="text_input" />
+</div>
+<div id="contact_input_box_clear_fix"></div>
+% }
+</div>
+<div id="textarea_input_box">
+
+
+<label for="inquiry_input" class="title_textarea_input">
+お問い合わせ内容
+</label>
+<span class="validated">【必須】
+% if ( $self->stash->{inquiry_vali} ) {
+% for my $vali ( @{ $self->stash->{ inquiry_vali } } ) {
+<%= $vali %>
+% }
+% }
+</span><br />
+
+<textarea name="inquiry" id="inquiry_input" cols="" rows=""></textarea>
+</div>
+
+<div id="contact_input_box_clear_fix"></div>
+
+
+<div id="form_button">
+<p>
+※しばらくたっても完了メールが届かない場合は<br />
+メールアドレスが正しくない可能性があります。
+</p>
+<span><%= $message %></span><input type="submit" name="trans" id="trans_button" value="送信">
+</div>
+</form>
+
+
+% my @title_guide = (
+%     "名称"    ,
+%     "設立"    ,
+%     "代表者"  ,
+%     "所在地"  ,
+%     "事業内容",
+% );
+
+% my @content_guide = (
+%     "strict(ストリクト)",
+%     "2013年4月",
+%     "日下部 幸夫 (kusakabe yukio)",
+%     "〒812-0041<br />福岡県 福岡市 博多区吉塚4丁目12-9 ヴィオラ吉塚103",
+%     "webサイト、webシステム、開発、企画、運営、導入支援",
+% );
+
+<div id="company_guide">
+
+<table>
+% for my $i (0..4) {
+<tr>
+<th><%= $title_guide[$i] %></th>
+<td><%= Mojo::ByteStream->new($content_guide[$i]) %></td>
+</tr>
+% }
+</table>
+
+</div>
+
+<%= include './footer' %>
+    
+    
+    
+</div>
