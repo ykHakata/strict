@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* =======================================
+
+	Home CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.
+
+========================================== */
+
+/* 1.
+========================================== */
+body#home #contents {
+}
+
+#home_comment {
+/*     margin-top: 30px; */
+/*     margin-left: 0px; */
+    float: left;
+}
+#home_comment p {
+    margin-top: 15px;
+    width: 340px;
+    background-color: ;
+    font-size: small;
+    line-height: 1.5em;
+}
+#home_image {
+/*     margin-top: 30px; */
+/*     margin-right: 0px; */
+    float: right;
+    background-color: gray;
+}
+
+#home_image img {
+    margin: -3px 5px 5px -3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+#home_clear_fix {
+    clear: both;
+}

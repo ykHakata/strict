@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <link href="/css/import.css" rel="stylesheet" />
+  <title><%= title %></title>
+</head>
+
+<body>
+  <%= content %>
+</body>
+
+</html>

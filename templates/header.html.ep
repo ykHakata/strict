@@ -1,0 +1,17 @@
+<div id="header">
+  <div id="header_title">
+    <h1><img src="images/strict_rogo.png" alt="strict" width="130" height="55"></h1>
+  </div>
+  <div id="header_comment">
+    <p id="header_description">一般的なホームページからWEBシステム開発まで柔軟に対応いたします。</p>
+    <div id="navsite">
+      <ul>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="service">サービス紹介</a></li>
+        <li><a href="case">事例紹介</a></li>
+        <li><a href="contact">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="header_clear_fix"></div>
+</div>

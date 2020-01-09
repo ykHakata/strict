@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/* =======================================
+
+	case CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+ 	1.
+
+========================================== */
+
+/* 1.
+========================================== */
+
+
+
+
+
+#case_head {
+    font-size: x-large;
+    border-bottom: 6px double gray;
+/*     margin: 40px 0px 0px 0px; */
+/*     padding-bottom: 5px; */
+}
+#case_head h1 {
+/*     background-color: blue; */
+    float: left;
+}
+
+#case_head_navi {
+    float: right;
+}
+
+#case_head_navi ul {
+    border-right: 1px dotted black;
+/*     margin-right: px; */
+/*     width: px; */
+/*     margin-top: 14px; */
+    margin-bottom: 5px;
+}
+#case_head_navi li {
+    display: inline;
+    border-left: 1px dotted black;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: small;
+}
+
+#case_head_clear_fix {
+    clear: both;
+}
+/* 1.
+========================================== */
+
+#case_content_head h2 {
+    background-color: salmon;
+    font-size: large;
+    padding: 5px;
+    margin: 20px 0 20px 0px
+}
+
+#case_content_head p {
+    font-size: medium;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    background-color: ;
+}
+    /* 
+    ========================================== */
+    #case_content_bundle {
+        margin-top: 20px;
+        padding-left: 50px;
+        background-color: ;
+    }
+    
+    #case_content_service h3 ,
+    #case_content_site    h3 {
+        font-size: large;
+        margin: 0px 0 20px 0px;
+        padding: 5px;
+        background-color: darksalmon;
+    }
+    
+    .case_content_service_title ,
+    .case_content_site_title    {
+        float: left;
+        background-color: ;
+    }
+    
+    .case_content_service_title h4 ,
+    .case_content_site_title h4    {
+        font-size: large;
+        margin-bottom: 50px;
+        padding: 5px;
+        background-color: lavenderblush;
+/*         margin-top: 50px; */
+    }
+    
+    .case_content_service_title h5 ,
+    .case_content_site_title h5    {
+        font-size: large;
+        margin-bottom: 30px;
+        border-left: 5px solid black;
+        border-bottom: 1px solid black;
+        font-weight: bold;
+        padding: 5px;
+    }
+    
+    .case_content_service_logo ,
+    .case_content_site_logo    {
+        float: right;
+    }
+    
+    .case_clear_fix {
+        clear: both;
+    }
+    
+    .case_content_service_comment p ,
+    .case_content_site_comment p    {
+        font-size: medium;
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+    
+    
+    /* 
+    ========================================== */
+/*
+    #service_content_flow h3 {
+        font-size: large;
+        margin: 0px 0 20px 0px;
+        padding: 5px;
+        background-color: darksalmon;
+    }
+    
+    .service_content_flow_title {
+        float: left;
+        width: 500px;
+        background-color: ;
+    }
+    
+    .service_content_flow_title h4 {
+        font-size: large;
+        margin-bottom: 20px;
+        padding: 5px;
+        background-color: lavenderblush;
+    }
+    
+    .service_content_flow_title p {
+        font-size: medium;
+        line-height: 1.5em;
+    }
+    
+    .service_content_flow_logo {
+        float: right;
+    }
+    
+    .service_clear_fix {
+        clear: both;
+    }
+*/
+    /* 
+    ========================================== */
+
+
+
+
+

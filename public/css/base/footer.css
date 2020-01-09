@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* =======================================
+
+	Footer CSS
+
+ -----------------------------------------
+	INDEX
+ -----------------------------------------
+
+========================================== */
+
+#footer {
+    border-top: 5px red solid;
+    border-bottom: 10px red solid;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 200px;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+#footer_copyright {
+    float: left;
+}
+
+#footer_comment {
+    float: right;
+}
+
+#footer_clear_fix {
+    clear: both;
+}
+/* Footer Navi
+========================================== */
+
+
+#footer_comment ul {
+    border-right: 1px dotted black;
+    margin-right: px;
+    width: px;
+/*     margin-top: 14px; */
+/*     margin-bottom: 2px; */
+}
+
+#footer_comment li {
+    display: inline;
+    border-left: 1px dotted black;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: small;
+}
+
+
+
+
+
+
+#footer ul#footer-navi {
+}
+
+#footer ul#footer-navi li {
+	float: left;
+	width: px;
+}
+
+#footer ul#footer-navi li a {
+	display: block;
+	height: px;
+	background: url() no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+/* Default */
+#footer ul#footer-navi li#fnavi01 a {background-position:  0  0;}
+#footer ul#footer-navi li#fnavi02 a {background-position: -px 0;}
+#footer ul#footer-navi li#fnavi03 a {background-position: -px 0;}
+#footer ul#footer-navi li#fnavi04 a {background-position: -px 0;}
+#footer ul#footer-navi li#fnavi05 a {background-position: -px 0;}
+
+/* When Mouse Over */
+#footer ul#footer-navi li#fnavi01 a:hover {background-position:  px -px;}
+#footer ul#footer-navi li#fnavi02 a:hover {background-position: -px -px;}
+#footer ul#footer-navi li#fnavi03 a:hover {background-position: -px -px;}
+#footer ul#footer-navi li#fnavi04 a:hover {background-position: -px -px;}
+#footer ul#footer-navi li#fnavi05 a:hover {background-position: -px -px;}
+
+/* When Active Page */
+body.xxx #footer ul#footer-navi li#fnavi01 a {background-position:  px -px;}
+body.xxx #footer ul#footer-navi li#fnavi02 a {background-position: -px -px;}
+body.xxx #footer ul#footer-navi li#fnavi03 a {background-position: -px -px;}
+body.xxx #footer ul#footer-navi li#fnavi04 a {background-position: -px -px;}
+body.xxx #footer ul#footer-navi li#fnavi05 a {background-position: -px -px;}
+
+
+/* Copyright
+========================================== */
+#footer_copyright p {
+    font-size: xx-small;
+    font-weight: bold;
+}
+
+
+
+#footer p#copyright {
+}
