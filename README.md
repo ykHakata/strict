@@ -21,6 +21,8 @@ $ cd ~/github/strict/
 (Perl のバージョンを固定 Mojolicious をインストール)
 $ echo '5.30.0' > .perl-version;
 $ echo "requires 'Mojolicious', '8.29';" >> cpanfile;
+$ echo "requires 'FormValidator::Lite', '0.40';" >> cpanfile;
+$ echo "requires 'HTML::FillInForm', '2.21';" >> cpanfile;
 $ carton install
 
 (雛形作成、パーミッションが 0744 の実行ファイルがつくられる)
