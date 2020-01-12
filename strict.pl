@@ -70,23 +70,17 @@ post 'contact' => sub {
 
     my $validator = _validator_set( $c->req );
     if ( $validator->has_error ) {
-        my @name_vali = $validator->get_error_messages_from_param('name');
-        my @read_name_vali
-            = $validator->get_error_messages_from_param('read_name');
-        my @email_vali = $validator->get_error_messages_from_param('email');
-        my @email_conf_vali
-            = $validator->get_error_messages_from_param('email_conf');
-        my @emails_vali = $validator->get_error_messages_from_param('mails');
-        my @inquiry_vali
-            = $validator->get_error_messages_from_param('inquiry');
-        $c->stash(
-            name_vali       => \@name_vali,
-            read_name_vali  => \@read_name_vali,
-            email_vali      => \@email_vali,
-            email_conf_vali => \@email_conf_vali,
-            emails_vali     => \@emails_vali,
-            inquiry_vali    => \@inquiry_vali,
-        );
+        my $validator_params = +{};
+        my $name_list        = [
+            'name',  'read_name', 'email', 'email_conf',
+            'mails', 'inquiry',
+        ];
+        for my $name ( @{$name_list} ) {
+            my $vali = $validator->get_error_messages_from_param($name);
+            my $key  = $name . '_vali';
+            $validator_params->{$key} = shift @{$vali} || '';
+        }
+        $c->stash($validator_params);
         my $html = $c->render_to_string->to_string;
         my $output
             = HTML::FillInForm->fill( \$html, $c->req->params->to_hash );
