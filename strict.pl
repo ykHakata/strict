@@ -3,8 +3,15 @@ use Mojolicious::Lite;
 use Time::Piece;
 use HTML::FillInForm;
 use FormValidator::Lite;
-use Mojo::Util qw{dumper};
+use Readonly;
+use lib '.';
 FormValidator::Lite->load_constraints(qw/Email/);
+Readonly my $MAIL_UNSENT_0 => 0;
+Readonly my $MAIL_SENT_1   => 1;
+
+#sql(teng)と接続
+my $teng = do('create-teng-instanceMy.pl')
+    or die $@;
 
 get '/' => sub {
     my $c          = shift;
@@ -90,18 +97,17 @@ post 'contact' => sub {
 
     my $today      = localtime;
     my $date_today = $today->datetime( T => " " );
-
-    # my $param_ref  = $c->req->params->to_hash;
-    # my $row        = $teng->insert(
-    #     'contact' => +{
-    #         name      => $param_ref->{name},
-    #         read_name => $param_ref->{read_name},
-    #         email     => $param_ref->{email},
-    #         inquiry   => $param_ref->{inquiry},
-    #         status    => $MAIL_UNSENT_0,
-    #         create_on => $date_today,
-    #     }
-    # );
+    my $param_ref  = $c->req->params->to_hash;
+    my $row        = $teng->insert(
+        'contact' => +{
+            name      => $param_ref->{name},
+            read_name => $param_ref->{read_name},
+            email     => $param_ref->{email},
+            inquiry   => $param_ref->{inquiry},
+            status    => $MAIL_UNSENT_0,
+            create_on => $date_today,
+        }
+    );
     $c->flash( message => 'お問い合わせを受け付けました' );
     $c->redirect_to('/contact');
     return;
