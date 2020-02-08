@@ -64,9 +64,8 @@ $ cd ~/github/strict/db/
 $ sqlite3 ./strict.db < ./schema.sql
 ```
 
-メールの送信スクリプト
-
 ```
+(メールの送信スクリプト)
 $ cd ~/github/strict/
 $ carton exec -- perl auto_mail.pl
 
@@ -77,5 +76,16 @@ STRICT_GOOGLE_USER=strictquery@gmail.com \
 STRICT_GOOGLE_PASS=googlestrict \
 carton exec -- perl auto_mail.pl
 ```
+
+# MEMO
+
+- 2013/6
+    - webサイト製作のスキルアップの目的として自社サイト製作
+    - お問い合わせフォームからのメール配信は開発当時はMysqlを活用
+    - 開発の経緯の詳細などは`doc`配下の資料参照
+- 2020/2
+    - 過去の資料を整理のためgithubにアーカイブ作業
+    - メール配信のためのdbはsqlite3に変更
+    - メール配信までの確認はできるが配信メッセージが途中で切れてしまう問題は未解決
 
 # SEE ALSO
