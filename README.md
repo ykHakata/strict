@@ -36,6 +36,7 @@ $ carton exec -- mojo generate lite_app strict.pl
 (git設定)
 $ echo 'local/' >> .gitignore;
 $ echo '.DS_Store' >> .gitignore;
+$ echo 'db/*.db' >> .gitignore;
 
 (起動テスト)
 $ carton exec -- morbo strict.pl

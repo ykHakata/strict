@@ -3,14 +3,11 @@ use warnings;
 use utf8;
 use Time::Piece;
 use Readonly;
-use Encode;
 use Email::MIME;
 use Email::Sender::Simple 'sendmail';
 use Email::Sender::Transport::SMTP::TLS;
 use Try::Tiny;
 use lib '.';
-binmode STDOUT, ":utf8";
-use Data::Dumper;
 Readonly my $SECONDS_3          => q{ 3 * 1};
 Readonly my $SECONDS_5          => q{ 5 * 1};
 Readonly my $SECONDS_10         => q{10 * 1};
@@ -105,16 +102,16 @@ EOD
 #status    ->0 メール未送信　->1 メール送信済
 my $transmission_mail = sub {
     my ($contact_id) = @_;
-    my $contact_ref  = $teng->single( 'contact', +{ id => $contact_id } );
+    my $contact_ref = $teng->single( 'contact', +{ id => $contact_id } );
+
     my $type_mail    = $RECEPTION_0;
     my $admin_mail   = $STRICT_ADMIN_MAIL;
     my $general_mail = $contact_ref->email;
-    my $utf8         = find_encoding('utf8');
 
     # メール作成
-    my $subject = $utf8->encode( $title_parts_ref->($type_mail) );
-    my $body  = $utf8->encode( $body_parts_ref->( $contact_id, $type_mail ) );
-    my $email = Email::MIME->create(
+    my $subject = $title_parts_ref->($type_mail);
+    my $body    = $body_parts_ref->( $contact_id, $type_mail );
+    my $email   = Email::MIME->create(
         header => [
             From    => $STRICT_FROM_MAIL,    # 送信元
             To      => $admin_mail,          # 送信先
@@ -162,10 +159,6 @@ my $transmission_mail = sub {
 
 while (1) {
     my $newest_time = localtime;
-
-    warn $newest_time;
-    warn $seconds_after;
-
     if ( $newest_time eq $seconds_after ) {
         my @contacts = $teng->search_named(
             q{select * from contact where status = '0' order by id asc;});
